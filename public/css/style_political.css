@@ -1,0 +1,352 @@
+/* *{
+    direction: rtl;
+} */
+/*swiper*/
+.swiper-container {
+  width: 100%;
+  height: 135px;
+  /* border: 1px solid red; */
+}
+
+.swiper-slide {
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+.swiper-slide img{
+    object-fit: cover;
+    width: 145px;
+    height: 95px;
+    order: 1;
+}
+.swiper-slide h3{
+    order: 0;
+    padding: 0 11px 0 0;
+    direction: rtl;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+/* swiper */
+.ta-news{
+    order: 1;
+}
+.news_tool{
+  margin-bottom: 100px;
+  padding: 0 20px;
+    order: 0;
+ }
+.news_tools ,.political{
+   direction: rtl;
+}
+.news_tools{
+    height: 42px;
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: #eeeeee;
+    color: #020302;
+}
+.news_tools .service{
+    display: flex;
+    justify-content:space-between;
+    padding: 8px 20px;
+    direction: ltr;
+    border-left: 1px solid #696969;
+
+}
+.news_tools .row .service a{
+    color: #696969;
+    font-size: 16px;
+    text-decoration: none;
+}
+.news_tools .row .service span{
+    color: #696969;
+    font-size: 17px;
+}
+.news_tools .row .soctial{
+    padding-left: 8px;
+    margin-top: 5px;
+    direction: ltr;
+}
+.news_tools .row .soctial a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #696969;
+    margin-left: 2px;
+
+}
+/*.news_tools .row .soctial span{*/
+/*    background: #696969;*/
+/*    border-radius: 5px 5px 3px 3px;*/
+/*    padding: 3px;*/
+/*    width: 30px;*/
+/*    height: 20px;*/
+/*    color: white;*/
+/*}*/
+
+.political .rutitr{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.political .title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+.political figure{
+    height: 180px;
+    display: flex;
+}
+.political figure figcaption{
+    padding: 10px 10px;
+    font-size: 1.9rem;
+    line-height: 30px;
+    background-color: #eeeeee;
+}
+.political p{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.lables-1{
+    display: flex;
+    direction: rtl;
+
+}
+.lables-1 .lable-items{
+    padding: 8px 20 px;
+    color: rgba(0, 0, 0, 0.438);
+}
+.lables-1 .lable-items::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.582);
+    left: -5px;
+    top: 10%;
+}
+.lables-1 .lable-items:last-child::after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: none;
+}
+.lables-2 p{
+    background-color: #eeeeee;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+.lables-2 p:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.icon-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+.icon-menu a{
+    color: #000000;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-menu a:hover{
+    text-decoration: none;
+}
+
+
+
+.icon-media{
+    background-color: #eeeeee;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon-media a{
+    color:black;
+}
+.icon-media a:hover{
+    color: green;
+}
+.link-medNews{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+}
+.link-medNews a{
+    color: red;
+    cursor:pointer;
+}
+.link-medNews a:hover{
+    text-decoration: none;
+}
+.forms{
+    margin-top: 30px;
+    background-color: #eeeeee;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.forms h4{
+    color: red;
+}
+.forms div input{
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.forms input[class="form-control"]{
+    width: 78%;
+}
+.forms input[type="submit"]{
+    background-color: #029d04;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    line-height: 30px;
+    margin-right: 40px;
+    margin-top: -30px;
+}
+.forms .textarea{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1210px) and  (min-width: 992px){
+    .news_tools{
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+    .news_tools .row .soctial{
+        direction: rtl;
+        padding-right: 20px;
+    }
+    .news_tools .service{
+        border-left: none;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) and  (min-width: 768px){
+
+    .ta-news {
+        order: 1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ta-news .news{
+        padding: 10px;
+    }
+    .news_tool{
+        order: 0;
+        padding: 0;
+    }
+    .test-slidbar{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    .lables{
+        padding: 10px;
+    }
+    .press{
+        padding: 10px;
+    }
+    .test-slidbar-child{
+        padding: 10px;
+    }
+    .visit{
+        padding: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .news_tools{
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+    .news_tools .row .soctial{
+        direction: rtl;
+        padding-right: 20px;
+    }
+    .news_tools .service{
+        border-left: none;
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+
+    }
+    .link-medNews{
+        margin-top: 20px;
+    }
+    .icon-menu{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60px;
+    }
+    .political figure{
+        height: 350px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .forms input[class="form-control"]{
+        width: 100%;
+    }
+    .forms input[type="submit"]{
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 468px){
+    .icon-menu{
+        height: 160px;
+        border-radius: 5px;
+    }
+}
